@@ -152,7 +152,8 @@
 			id: "python",
 			name: "Python",
 			image: "img/python.png",
-			description: ``
+			description: ``,
+			details: []
 		},
 		{
 			id: "php",
@@ -354,10 +355,10 @@ function languageCard(language) {
 	<div class="col-md-12 col-sm-12 portfolio-item" style="padding-left:20px;">
 		<div class="shadow p-3 mb-5 bg-white rounded row" style="transition:transform 1s, opacity 1s">
 			<div style="position:relative;width:100%;justify-content:space-betweeen" class="row">
-				<a class="portfolio-link col-md-3 col-sm-12" style="margin:0;max-width:400px !important" id=`+ language.id + `>
+				<a class="portfolio-link col-md-2 col-sm-12" style="margin:0;max-width:400px !important" id=`+ language.id + `>
 					<img class="img-fluid" src="`+ language.image + `" alt="logo computer languages">
 				</a>
-				<div class="portfolio-caption col-md-9 col-sm-12" style="max-width:none;padding:0;margin:0">
+				<div class="portfolio-caption col-md-10 col-sm-12" style="max-width:none;padding:0;margin:0">
 					<h4>`+ language.name + `</h4>
 					<p class="text-muted" style="word-break:break-word;padding-left:5px;padding-right:5px">`+ language.description + `</p>
 				</div>
@@ -380,10 +381,10 @@ function toolsCard(language) {
 	<div align="center" class="col-md-12 col-sm-12">
 		<div class="shadow p-3 mb-5 bg-white rounded row" style="transition:transform 1s, opacity 1s">
 			<div style="position:relative;width:100%;justify-content:space-betweeen" class="row">
-				<a class="portfolio-link col-md-3 col-sm-12" style="margin:0;max-width:400px !important" id=`+ language.id + `>
+				<a class="portfolio-link col-md-2 col-sm-12" style="margin:0;max-width:400px !important" id=`+ language.id + `>
 					<img class="img-fluid" src="`+ language.image + `" alt="logo computer languages">
 				</a>
-				<div class="portfolio-caption col-md-9 col-sm-12" style="max-width:none;padding:0;margin:0">
+				<div class="portfolio-caption col-md-10 col-sm-12" style="max-width:none;padding:0;margin:0">
 					<h4>`+ language.name + `</h4>
 					<p class="text-muted" style="word-break:break-word;padding-left:5px;padding-right:5px">`+ language.description + `</p>
 				</div>
