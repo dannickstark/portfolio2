@@ -149,6 +149,12 @@
 
 	var computerLanguages = [
 		{
+			id: "python",
+			name: "Python",
+			image: "img/python.png",
+			description: ``
+		},
+		{
 			id: "php",
 			name: "PHP",
 			image: "img/php.png",
